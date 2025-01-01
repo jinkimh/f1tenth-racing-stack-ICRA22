@@ -117,6 +117,7 @@ ImportError: /home/mina/anaconda3/envs/traj_generator/lib/python3.8/site-package
 Fix it by reinstalling `quadprog` via conda:
 ```bash
 conda install -c conda-forge quadprog=0.1.7
+pip install numpy==1.18.1
 ```
 
 ### Optimization Errors
