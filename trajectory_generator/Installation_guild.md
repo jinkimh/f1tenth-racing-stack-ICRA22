@@ -73,10 +73,12 @@ pip install -r requirements.txt
 
 ## Configuration
 
-1. **Add Map Files**:
-   Place the SLAM-generated image and .yaml files into the maps directory in the trajectory_generator folder:
+1. ** Refine the SLAM-generated image **
 
-2. **Update Parameters**:
+2. **Add Map Files**:
+   Place the refined SLAM-generated image and .yaml files into the maps directory in the trajectory_generator folder:
+
+3. **Update Parameters**:
    Edit the `trajectory_generator/config/params.yaml` file to update:
    - `map_name`: Name of the map file (without extension)
    - `map_img_ext`: File extension of the map image (e.g., `.png`)
